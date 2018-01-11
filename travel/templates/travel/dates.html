@@ -1,0 +1,9 @@
+{% extends 'travel/base.html' %}
+
+{% block main_content %}
+
+<h1>{{place.place}}</h1>
+    {% for place in destination_date %}
+        {{place.place}} --- {{place.date}}
+    {% endfor %}
+{% endblock %}

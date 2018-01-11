@@ -1,0 +1,12 @@
+{% extends 'travel/base.html' %}
+
+{%block main_content%}
+<h1 id="header">{{place.place}}</h1>
+<ol>
+{% for p in place.option_set.all %}
+
+<li>{{p.option_text}}</li>
+
+{% endfor %}
+</ol>
+{% endblock %}

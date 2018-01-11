@@ -1,0 +1,41 @@
+li a{
+    color:cadetblue;
+}
+
+#header{
+    color:cadetblue;
+}
+
+img{
+    border: 0;
+}
+.page-header {
+    background-image: url("./images/orange.jpg");
+}
+
+.jumbotron {
+background-image: url("./images/house.jpg") ;
+height: 300px;
+}
+
+.navbar-brand {
+    font-family: 'Rock Salt', cursive;
+}
+
+#title{
+    font-family: 'Rock Salt', cursive;
+}
+
+.navbar{
+    border: 0;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.navbar-nav li a{
+    color: white;
+}
+
+.navbar-toggle{
+    color: cadetblue;
+}
